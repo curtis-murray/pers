@@ -1,0 +1,9 @@
+install.packages("usethis")
+usethis::use_data("model.csv")
+usethis::use_data(model)
+usethis::use_data(model, overwrite = T)
+usethis::use_r(model_emotions)
+usethis::use_r("model_emotions.R")
+devtools::load_all()
+usethis::use_data(test_data)
+test_data

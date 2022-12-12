@@ -1,0 +1,16 @@
+Package: pers
+Type: Package
+Title: Probabilistic Emotion Recommender System
+Version: 0.1.0
+Author: Curtis Murray
+Maintainer: Curtis Murray <curtis@curtismurray.tech>
+Description: Companion package to paper
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    dplyr,
+    R (>= 2.10),
+    tidyr,
+    tidytext,
+    tibble
